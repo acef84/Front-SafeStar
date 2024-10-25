@@ -1,0 +1,123 @@
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+  
+  .btn-success:focus, .btn-success.focus {
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
+  }
+  
+  a.btn {
+    font-size: 1.25rem;
+    padding: 0.75rem 1.25rem;
+    text-transform: uppercase;
+  }
+  
+  .footer {
+    background-color: #484949;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  .container {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #52505080; /* Cor de fundo clara */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(27, 27, 27, 0.719); /* Sombra suave */
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #DCDCDC; /* Cor do texto */
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 1.120rem;
+    color: #DCDCDC; /* Cor do texto */
+    line-height: 1.6;
+  }
+  
+  .bg-primary {
+    background-color: #800000 !important;
+  }
+  
+  .text-white {
+    color: #DCDCDC !important;
+  }
+  
+  .text-center {
+    text-align: center !important;
+  }
+  
+  .py-3 {
+    padding-top: 2rem !important;
+    padding-bottom: 1rem !important;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 1;
+  }
+  
+  .screenshots {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #52505080; /* Cor de fundo clara */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(27, 27, 27, 0.719); /* Sombra suave */
+  }
+  
+  .screenshots .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; /* Espaçamento entre as colunas */
+  }
+  
+  .screenshots .col-md-4 {
+    flex: 1 1 calc(33.333% - 1rem); /* Ajusta a largura das colunas */
+    max-width: calc(33.333% - 1rem);
+  }
+  
+  .screenshots img {
+    width: 110%;
+    height: auto;
+    border-radius: 8px; /* Bordas arredondadas para as imagens */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para as imagens */
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    background-color: #A52A2A;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  li {
+    font-size: 1.125rem;
+    color: #DCDCDC; /* Cor do texto */
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #696969; /* Linha de separação */
+  }
+  

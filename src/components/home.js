@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../img/logo.png';
 import banner from '../img/fundojogos.jpg';
 import bemvindo from '../img/bemvindo.png';
@@ -11,9 +12,12 @@ const Home = () => {
   return (
     <div className="home-container">
       <header className="header">
-        <a href="/img/logo.png"><img src={logo} alt="Logo" className="logo" /></a> 
+        <Link to="/">
+          <img src={logo} alt="Logo" className="logo" />
+        </Link>
         <nav className="nav-links">
-          <a href="/sobreNos">Sobre nós</a>
+          <Link to="/">Página Principal</Link>
+          <Link to="/sobreNos">Sobre nós</Link>
           <a href="#nossos-jogos">Jogos</a>
         </nav>
       </header>
@@ -34,7 +38,9 @@ const Home = () => {
               <p>
                 <strong>Fobia - St. Dinfna Hotel</strong> é um jogo de survival horror desenvolvido pelo estúdio brasileiro Pulsatrix Studios. Neste jogo, você assume o papel de Roberto Leite Lopes, um jornalista investigativo que se encontra preso em um hotel assombrado na cidade fictícia de Treze Trilhas, Santa Catarina.
               </p>
-              <button className="saiba-mais-button">Saiba Mais</button>
+              <Link to="/fobia">
+                <button className="saiba-mais-button">Saiba Mais</button>
+              </Link>
             </div>
           </div>
           <div className="game-box">
@@ -43,7 +49,9 @@ const Home = () => {
               <p>
                 <strong>Cuphead</strong> é um jogo de ação e tiro em estilo retrô, inspirado nos desenhos animados dos anos 1930. Com gráficos desenhados à mão e uma trilha sonora original de jazz, Cuphead oferece uma experiência única e desafiadora.
               </p>
-              <button className="saiba-mais-button">Saiba Mais</button>
+              <Link to="/cuphead">
+                <button className="saiba-mais-button">Saiba Mais</button>
+              </Link>
             </div>
           </div>
           <div className="game-box">
@@ -52,7 +60,9 @@ const Home = () => {
               <p>
                 <strong>Hollow Knight</strong> é um jogo de ação e aventura em estilo metroidvania, desenvolvido pela Team Cherry. Explore um vasto mundo interconectado, enfrente inimigos desafiadores e descubra segredos ocultos em Hallownest.
               </p>
-              <button className="saiba-mais-button">Saiba Mais</button>
+              <Link to="/dowhollow">
+                <button className="saiba-mais-button">Saiba Mais</button>
+              </Link>
             </div>
           </div>
         </div>
