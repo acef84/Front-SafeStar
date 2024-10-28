@@ -14,18 +14,6 @@ function DownloadButton() {
   );
 }
 
-function Footer() {
-  return (
-    <footer className="footer bg-dark text-white text-center py-3 mt-4">
-      <div className="">
-        <p>© 2024 Safe Star. Todos os direitos reservados.</p>
-        <ul className="social-links">
-        </ul>
-      </div>
-    </footer>
-  );
-}
-
 function GameDescription() {
   return (
     <div className="container mt-4">
@@ -39,7 +27,7 @@ function GameDescription() {
 function Header() {
   return (
     <header className="bg-primary text-white text-center py-3">
-      <h1>Fobia- St.Dinfna Hotel</h1>
+      <h1>Fobia - St. Dinfna Hotel</h1>
     </header>
   );
 }
@@ -75,6 +63,7 @@ function SystemRequirements() {
         <li>Gráficos: NVIDIA GeForce GTX 1060 6GB</li>
         <li>Armazenamento: 10 GB de espaço disponível</li>
       </ul>
+      
     </div>
   );
 }
@@ -88,7 +77,6 @@ function Fobia() {
       <Screenshots />
       <SystemRequirements />
       <DownloadButton />
-      <Footer />
     </div>
   );
 }

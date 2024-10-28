@@ -7,6 +7,7 @@ import SobreNos from './components/sobreNos';
 import DowHollow from './components/dowhollow';
 import Fobia from './components/fobia';
 import Cuphead from './components/cuphead';
+import Suporte from './components/suporte'; // Import the Suporte component
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/dowhollow" element={<DowHollow />} />
         <Route path="/fobia" element={<Fobia />} />
         <Route path="/cuphead" element={<Cuphead />} />
+        <Route path="/suporte" element={<Suporte />} /> {/* Add the route for Suporte */}
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </Router>

@@ -1,7 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/dowhollow.css'; // Importa o arquivo CSS combinado
-
 import screenshot1 from '../img/hk4.png';
 import screenshot2 from '../img/hk2.png';
 import screenshot3 from '../img/hk1.png';
@@ -11,18 +10,6 @@ function DownloadButton() {
     <div className="text-center mt-4">
       <a href="/path/to/game-download.zip" className="btn btn-success btn-lg" download>Baixar Jogo</a>
     </div>
-  );
-}
-
-function Footer() {
-  return (
-    <footer className="footer bg-dark text-white text-center py-3 mt-4">
-      <div className="">
-        <p>© 2024 Safe Star. Todos os direitos reservados.</p>
-        <ul className="social-links">
-        </ul>
-      </div>
-    </footer>
   );
 }
 
@@ -89,7 +76,6 @@ function DowHollow() {
       <Screenshots />
       <SystemRequirements />
       <DownloadButton />
-      <Footer />
     </div>
   );
 }

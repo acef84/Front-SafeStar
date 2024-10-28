@@ -151,18 +151,53 @@
 }
 
 .footer {
+  background-color: #000000 !important; /* Garantindo que a cor de fundo seja preta */
+  color: #fff;
+  padding: 5px 10px; /* Mantendo o padding reduzido */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 60px 20px;
-  background-color: #000000;
-  color: #fff;
-  position: relative;
-  bottom: 0;
+  flex-wrap: wrap;
+  font-size: 12px; /* Mantendo o tamanho da fonte reduzido */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: flex-start; /* Alinha os itens à esquerda */
+  align-items: flex-start; /* Alinha os itens ao topo */
   width: 100%;
+  flex-wrap: nowrap; /* Certifique-se de que os itens não quebrem para a próxima linha */
 }
 
-
-.footer .footer-info {
-  font-size: 14px;
+.footer-logo {
+  flex: 0 0 auto; /* Impede que a logo ocupe mais espaço do que necessário */
+  display: flex;
+  justify-content: flex-start; /* Alinha a logo à esquerda */
+  align-items: center;
 }
+
+.footer-links {
+  flex: 0 0 auto; /* Impede que os links ocupem mais espaço do que necessário */
+  display: flex;
+  flex-direction: column; /* Alinha os links verticalmente */
+  justify-content: flex-start; /* Alinha os links à esquerda */
+  gap: 10px; /* Mantém o espaçamento entre os links */
+  margin-left: 100px; /* Adiciona um espaço entre a logo e os links */
+  margin-top: 60px; /* Adiciona margem superior para afastar do topo */
+}
+
+.footer-contact {
+  flex: 1;
+  text-align: center; /* Centraliza o texto */
+  font-size: 12px; /* Mantendo o tamanho da fonte reduzido */
+  flex-direction: column; /* Alinha os links verticalmente */
+  margin-top: 50px; /* Adiciona margem superior para afastar do topo */
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+}
+
+.footer-logo-img {
+  width: 200px; /* Ajuste o tamanho conforme necessário */
+}
+

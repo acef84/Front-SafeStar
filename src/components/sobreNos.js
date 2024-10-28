@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import logo from '../img/logo.png';
 import '../styles/sobreNos.css';
 
+
 const SobreNos = () => {
   return (
     <div className="sobreNos-container">
@@ -11,7 +12,7 @@ const SobreNos = () => {
           <img src={logo} alt="Logo" className="logo" />
         </Link>
         <nav className="nav-links">
-          <Link to="/">Página Principal</Link>
+          <Link to="/">Home</Link>
           <Link to="/sobreNos">Sobre nós</Link>
           <a href="/#nossos-jogos">Jogos</a>
         </nav>
@@ -33,12 +34,6 @@ const SobreNos = () => {
           </p>
         </div>
       </div>
-      <footer className="footer">
-        <div className="footer-info">
-          © 2024 SafeStar. Todos os direitos reservados.
-        </div>
-        <div>Email para contato: SafeStar@gmail.com</div>
-      </footer>
     </div>
   );
 };

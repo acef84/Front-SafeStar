@@ -16,9 +16,10 @@ const Home = () => {
           <img src={logo} alt="Logo" className="logo" />
         </Link>
         <nav className="nav-links">
-          <Link to="/">Página Principal</Link>
+          <Link to="/">Home</Link>
           <Link to="/sobreNos">Sobre nós</Link>
           <a href="#nossos-jogos">Jogos</a>
+          <Link to="/suporte">Suporte</Link> {/* Adicionado */}
         </nav>
       </header>
       <div className="banner-container">
@@ -68,10 +69,21 @@ const Home = () => {
         </div>
       </div>
       <footer className="footer">
-        <div className="footer-info">
-          © 2024 SafeStar. Todos os direitos reservados.
+        <div className="footer-content">
+          <div className="footer-logo">
+            <img src={logo} alt="Logo" className="footer-logo-img" />
+          </div>
+          <div className="footer-links">
+            <Link to="/">Home</Link>
+            <Link to="/sobreNos">Sobre nós</Link>
+            <Link to="/contato">Contato</Link>
+          </div>
+          <div className="footer-contact">
+            <p>© 2024 SafeStar. Todos os direitos reservados.</p>
+            <p>Email para contato: SafeStar@gmail.com</p>
+            <p>Telefone: (11) 1234-5678</p>
+          </div>
         </div>
-        <div>Email para contato: SafeStar@gmail.com</div>
       </footer>
     </div>
   );
